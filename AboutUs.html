@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Saver life</title>
+		<link href="Style.css" rel="stylesheet"/>
+	</head>
+	<body>
+	    <div class="wrapper"> 
+		<div class="header_main">
+		    <div class="header_img">
+			<img src="image/r1.jpg"/>
+			</div>
+			<div class="header_txt">
+				<h2>Saver Life Blood Bank </h2>
+				<p>Donate Blood Save Life</p>
+			</div>
+ 
+			
+		</div>
+		<div class="navi">
+		 <ul>
+			<li><a href ="Home.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+			<li><a href="register.html">Donar reg</a></li>
+			<li><a href="Cam.html">camp</a></li>
+			<li><a href="Contact.html">Contact Us</a></li>
+			<li><a href="bloodreq.html">Blood Request</a></li>
+			<li><a href="Stockdet.html">stock details</a></li>
+			<!-- <li><a href="Units.html">Other unit</a></li> -->
+			<li class="dropdown">
+				<a  class="dropbtn">Other Units</a>
+				<div class="dropdown-content">
+				  <a href="#">Sylhet Unit</a>
+				  <a href="#">Dhaka Unit</a>
+				  <a href="#">Chittagong Unit</a>
+				  <a href="#">Barishal Unit</a>
+				  <a href="#">Rajshahi Unit</a>
+				</div>
+			 </li>
+			 <li><a href ="gallery.html">Photo  gallery</a></li>
+			<li><a href="login.html">Login</a></li>
+			
+		</ul>
+		</div>
+		<div class="sec">
+			<h2>About Us</h2>
+			<p>Saver Life is a voluntary institution of medical and dental students of Bangladesh, works mainly on Safe Blood Transfusion .
+			Saver Life started its journey on 5th February,1977 by some medical students with the motive of doing things for humanity. 
+			Saver Life has become a great social icon in Bangladesh with its own activities since birth. 
+			In this long period, Saver Life has very successfully arranged voluntary blood donation programs. 
+			
+			</p>		
+		</div>
+		<div class="add">
+		   <img src="image/r1.jpg" class="m" id="1">
+			<img src="image/r2.jpg" class="m" id="2">
+			<img src="image/r3.png" class="m" id="3">
+			<img src="image/r5.jpg" class="m" id="4">
+
+			<script>
+					var a=1;
+					function slide(){
+						if(a==1){
+							document.getElementById('1').style.display='block';
+							document.getElementById('2').style.display='none';
+							document.getElementById('3').style.display='none';
+							document.getElementById('4').style.display='none';
+							a=2;
+						}
+						else if(a==2){
+							document.getElementById('1').style.display='none';
+							document.getElementById('2').style.display='block';
+							document.getElementById('3').style.display='none';
+							document.getElementById('4').style.display='none';
+							a=3;
+						}
+						else if(a==3){
+							document.getElementById('1').style.display='none';
+							document.getElementById('2').style.display='none';
+							document.getElementById('3').style.display='block';
+							document.getElementById('4').style.display='none';
+							a=4;
+						}
+						else if(a==4){
+							document.getElementById('1').style.display='none';
+							document.getElementById('2').style.display='none';
+							document.getElementById('3').style.display='none';
+							document.getElementById('4').style.display='block';
+							a=1;
+						}
+
+						setTimeout(function(){
+							slide();
+						},2000)
+					}
+					slide();
+
+			</script> 
+			
+			
+		</div>
+	
+		
+		 <div class="footer">
+      <div class="connect"> <a href=""><img src="image/icon-facebook.gif" alt="" /></a> <a href="#"><img src="image/icon-twitter.gif" alt="" /></a> <a href="#"><img src="image/icon-youtube.gif" alt="" /></a> </div>
+	  <div class="marjana">
+			<p>Saver Life Blood Bank</p>
+	  </div>
+	  <br><br><br>
+	  <div class="secti">
+      <div class="section">
+        <ul>
+          <li><a href ="Home.html">Home </a></li>
+          <li><a href="AboutUs.html">About Us </a></li>          
+          <li class="last"><a href="contactus.html">Contact us</a></li>
+        </ul>
+		
+      </div>
+	  </div>	  
+	  <br>
+	  <br>
+	  <div class="last"><p> <a href="#">Marjana Akter</a> - <a target="_blank" href="http://www.freewebsitetemplates.com/"> Project Work II</a></p></div>
+    </div>
+	</div>
+		
+	</body>
+</html>
